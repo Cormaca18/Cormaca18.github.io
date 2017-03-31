@@ -216,3 +216,57 @@ a:hover {
     display: none;
   }
 }
+
+@media only screen and (min-width : 100px) and (max-width : 413px) {
+  .fadein img{
+    max-width: 80%;
+    max-height: 100%;
+  }
+  .container3{
+    margin: 0px auto;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    padding: 0px 20px 0px 0px;
+  }
+  .container3 p{
+    font-size: 20px;
+  }
+  .left-side{
+    width: 50%;
+    height: 100%;
+    background-color: #D9853B;
+    border: none;
+  }
+  .left-side p{
+    font-size: 13px;
+  }
+  .right-side{
+    width: 50%;
+    height: 100%;
+    background-color: #D9853B;
+    border: none;
+  }
+  .right-side p{
+    font-size: 13px;
+    line-height: normal;
+  }
+  ul#menu li{
+    font-size: 14px;
+    display: block;
+    padding: 3px;
+  }
+  a:hover {
+      color: purple;
+      font-size: 14px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 18px;
+  }
+  .right-side br{
+    display: none;
+  }
+}
