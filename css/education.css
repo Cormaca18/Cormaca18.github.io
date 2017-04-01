@@ -101,3 +101,23 @@ ul#menu li {
     text-align: center;
     padding: 0px 100px 50px 100px;
 }
+
+@media only screen and (min-width : 768px) and (max-width : 1023px){
+  ul#menu li{
+    font-size: 30px;
+    display: block;
+    padding: 10px;
+  }
+  a:hover {
+      color: purple;
+      font-size: 40px;
+  }
+  h1{
+    font-size: 50px;
+    line-height: 20%;
+  }
+  .bg1, .bg2, .bg3{
+    width: 100%;
+    min-height: 100%;
+  }
+}
