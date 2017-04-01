@@ -132,8 +132,9 @@ a:hover {
     overflow: auto;
   }
   .left-side p{
-    font-size: 15px;
+    font-size: 25px;
     padding: 5px;
+    line-height: 120%;
   }
   .right-side{
     width: 50%;
@@ -144,11 +145,11 @@ a:hover {
     overflow: auto;
   }
   .right-side p{
-    font-size: 100px;
-    line-height: normal;
+    font-size: 20px;
+    line-height: 110%;
   }
   ul#menu li{
-    font-size: 25px;
+    font-size: 22px;
     display: block;
     padding: 10px;
   }
@@ -157,10 +158,10 @@ a:hover {
       font-size: 25px;
   }
   h1{
-    font-size: 32px;
+    font-size: 40px;
   }
   h2{
-    font-size: 24px;
+    font-size: 30px;
   }
   .right-side br{
     display: none;
@@ -203,11 +204,11 @@ a:hover {
     overflow: auto;
   }
   .right-side p{
-    font-size: 100px;
-    line-height: 120%;
+    font-size: 14px;
+    line-height: 110%;
   }
   ul#menu li{
-    font-size: 14px;
+    font-size: 16px;
     display: block;
     padding: 3px;
   }
@@ -216,10 +217,10 @@ a:hover {
       font-size: 14px;
   }
   h1{
-    font-size: 35px;
+    font-size: 28px;
   }
   h2{
-    font-size: 25px;
+    font-size: 20px;
   }
   .right-side br{
     display: none;
