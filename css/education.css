@@ -123,9 +123,15 @@ ul#menu li {
       padding-left: 35px;
       padding-right: 35px;
   }
+  a{
+    color: rgba(0,0,255,1);
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+  }
   a:hover {
       color: purple;
-      font-size: 70px;
+      font-size: 60px;
   }
   h1{
     width: 100%;
