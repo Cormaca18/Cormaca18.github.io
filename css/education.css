@@ -123,6 +123,7 @@ ul#menu li {
       padding-top: none;
       padding-left: none;
       padding-right: none;
+      overflow: visible;
   }
   a:hover {
       color: purple;
