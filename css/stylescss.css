@@ -145,8 +145,8 @@ a:hover {
     overflow: auto;
   }
   .right-side p{
-    font-size: 32px;
-    line-height: 120%;
+    font-size: 30px;
+    line-height: 110%;
   }
   ul#menu li{
     font-size: 35px;
@@ -155,7 +155,6 @@ a:hover {
   }
   a:hover {
       color: purple;
-      font-size: 25px;
   }
   h1{
     font-size: 50px;
