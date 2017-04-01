@@ -103,20 +103,34 @@ ul#menu li {
 }
 
 @media only screen and (min-width : 768px) and (max-width : 1023px){
-  ul#menu li{
-    font-size: 30px;
-    display: block;
-    padding: 10px;
+  ul#menu li {
+      display:inline;
+      font-size: 20px;
+      font-family: fantasy;
+      text-align: center;
+      padding: 0px 20px 20px 20px;
   }
   a:hover {
       color: purple;
       font-size: 40px;
   }
   h1{
-    font-size: 50px;
-    line-height: 20%;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    background-color: rgba(112,138,144,0.4);
+    text-align: center;
+    border: 3px solid black;
+    font-variant: small-caps;
+    box-sizing: border-box;
   }
-  .bg1, .bg2, .bg3{
+  p{
+    font-size: 35px;
+    font-family: Helvetica;
+    color: rgba(0,0,0,1);
+    font-weight: 700;
+  }
+  .bg1, .bg2, .bg3 background-image{
     min-width: 768px;
     max-width: 1023px;
     min-height: 100%;
