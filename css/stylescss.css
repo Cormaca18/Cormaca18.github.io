@@ -151,7 +151,7 @@ a:hover {
   ul#menu li{
     font-size: 35px;
     display: block;
-    padding: 10px;
+    padding: 20px;
   }
   a:hover {
       color: purple;
