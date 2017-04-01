@@ -105,10 +105,11 @@ ul#menu li {
 @media only screen and (min-width : 768px) and (max-width : 1023px){
   ul#menu li {
       display:inline;
-      font-size: 50px;
+      font-size: 60px;
       font-family: fantasy;
       text-align: center;
       padding: 0px 20px 20px 20px;
+      padding-bottom: 20px;
   }
   a:hover {
       color: purple;
