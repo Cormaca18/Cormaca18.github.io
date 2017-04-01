@@ -191,7 +191,8 @@ a:hover {
     overflow: auto;
   }
   .left-side p{
-    font-size: 13px;
+    font-size: 18px;
+    line-height: 120%
   }
   .right-side{
     width: 50%;
@@ -202,8 +203,8 @@ a:hover {
     overflow: auto;
   }
   .right-side p{
-    font-size: 13px;
-    line-height: normal;
+    font-size: 16px;
+    line-height: 120%;
   }
   ul#menu li{
     font-size: 14px;
@@ -215,10 +216,10 @@ a:hover {
       font-size: 14px;
   }
   h1{
-    font-size: 25px;
+    font-size: 35px;
   }
   h2{
-    font-size: 18px;
+    font-size: 25px;
   }
   .right-side br{
     display: none;
