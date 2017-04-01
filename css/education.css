@@ -121,6 +121,8 @@ ul#menu li {
       font-family: fantasy;
       text-align: center;
       float: left;
+      padding-left: 10px;
+      padding-right: 10px;
   }
   a:hover {
       color: purple;
