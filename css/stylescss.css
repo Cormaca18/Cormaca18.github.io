@@ -132,9 +132,9 @@ a:hover {
     overflow: auto;
   }
   .left-side p{
-    font-size: 25px;
+    font-size: 45px;
     padding: 5px;
-    line-height: 120%;
+    line-height: 150%;
   }
   .right-side{
     width: 50%;
@@ -145,11 +145,11 @@ a:hover {
     overflow: auto;
   }
   .right-side p{
-    font-size: 20px;
-    line-height: 110%;
+    font-size: 35px;
+    line-height: 140%;
   }
   ul#menu li{
-    font-size: 22px;
+    font-size: 38px;
     display: block;
     padding: 10px;
   }
@@ -158,10 +158,10 @@ a:hover {
       font-size: 25px;
   }
   h1{
-    font-size: 40px;
+    font-size: 60px;
   }
   h2{
-    font-size: 30px;
+    font-size: 50px;
   }
   .right-side br{
     display: none;
