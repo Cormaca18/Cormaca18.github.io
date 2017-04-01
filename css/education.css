@@ -117,7 +117,8 @@ ul#menu li {
     line-height: 20%;
   }
   .bg1, .bg2, .bg3{
-    width: 100%;
+    min-width: 768px;
+    max-width: 1023px;
     min-height: 100%;
   }
 }
