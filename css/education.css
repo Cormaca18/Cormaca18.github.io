@@ -116,11 +116,11 @@ ul#menu li {
     position: absolute;
   }
   ul#menu li {
-      display:block;
+      display:inline;
       font-size: 40px;
       font-family: fantasy;
       text-align: center;
-      overflow: visible;
+      float: left;
   }
   a:hover {
       color: purple;
