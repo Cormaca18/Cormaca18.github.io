@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="quizstyles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
+    <script type="text/javascript" src="func.js"></script>
+    <title>Which Movie Character Are YOU?</title>
+  </head>
+  <body>
+    <div id="splashscreen">
+      <p>Which Movie Character Are YOU?</p>
+      <input type="button" id="hidebtn" value="FIND OUT!" onclick="hide()"/>
+    </div>
+
+    <div id="main"><!-- open main div -->
+      <p id="grade2"></p>
+      <p id="grade3"></p>
+    <p><span id="grade"></span></p>
+
+
+
+    <form  id="form1" action="">
+    <div id="section1">
+    <p>Which word best describes you?</p>
+    <input type="radio" name="describe" value="1" />Wild.<br />
+    <input type="radio" name="describe" value="2" />Brave.<br />
+    <input type="radio" name="describe" value="3" />Intelligent.<br />
+    <input type="radio" name="describe" value="4" />Trusting.<br />
+    </div>
+    <div id="section2">
+    <p>What superpower would you want most?</p>
+    <input type="radio" name="superpower" value="1" />None.<br />
+    <input type="radio" name="superpower" value="2" />Super strength.<br />
+    <input type="radio" name="superpower" value="3" />Ability to know everything.<br />
+    <input type="radio" name="superpower" value="4" />Flight.<br />
+    </div>
+    <div id="section3">
+    <p>What is your favourite drink?</p>
+    <input type="radio" name="drink" value="1" />Vodka.<br />
+    <input type="radio" name="drink" value="2" />Wine.<br />
+    <input type="radio" name="drink" value="3" />Beer.<br />
+    <input type="radio" name="drink" value="4" />I don't drink.<br />
+    </div>
+    <div id="section4">
+    <p>What is your favourite animal?</p>
+    <input type="radio" name="animal" value="1" />Snake.<br />
+    <input type="radio" name="animal" value="2" />Cat.<br />
+    <input type="radio" name="animal" value="3" />Gorilla.<br />
+    <input type="radio" name="animal" value="4" />Dog.<br />
+    </div>
+    <div id="section5">
+    <p>What is your weapon of choice?</p>
+    <input type="radio" name="weapon" value="1" />Knife<br />
+    <input type="radio" name="weapon" value="2" />Gun.<br />
+    <input type="radio" name="weapon" value="3" />Words<br />
+    <input type="radio" name="weapon" value="4" />Fists.<br />
+    </div>
+    <input type="button" value="Answer" onclick="myfunc()" id="mybtn">
+    </form>
+    </div><!-- close main div -->
+  </body>
+</html>

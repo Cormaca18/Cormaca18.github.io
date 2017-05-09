@@ -1,0 +1,38 @@
+h1{
+  height: 100px;
+  background-color: #558C89;
+  border: 6px solid #74AFAD;
+  text-align: center;
+  font-family: Helvetica, cursive;
+  font-variant: small-caps;
+  font-size: 60px;
+  padding-top: 20px;
+}
+body{
+  background-color: #D9853B;
+}
+#main{
+  height:500px;
+  margin-top: 30px;
+  background-color: #74AFAD;
+  border: 6px solid #558C89;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  line-height: 80px;
+}
+#main a{
+  text-decoration: none;
+  color:black;
+    font-size: 35px;
+}
+
+#main a:hover{
+  cursor:pointer;
+  color:red;
+}
+#home{
+  font-size: 30px;
+  font-variant: small-caps;
+  color:white;
+}
