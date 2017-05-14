@@ -1,0 +1,319 @@
+body{
+  background-color: rgba(0,128,128,1.0);
+}
+h1{
+  width:1000px;
+  height:80px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+}
+#links{
+  background: #1abc9c;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 856px;*/
+  width:1000px;
+  margin-top:120px;
+  margin-bottom: 0px;
+  padding:10px 0px;
+}
+#links a{
+  text-decoration: none;
+  font-size: 20px;
+  color:white;
+  /*padding: 0px 66px;*/
+  /*padding-left: 90px;
+  padding-right: 40px;*/
+  width:30%;
+  text-align: center;
+  word-wrap: normal;
+  display: inline-block;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 29.5px;
+}
+#links a:hover{
+  /*background-color: #f1ad1a;*/
+  color:#f1ad1a;
+}
+#advert1{
+  float:left;
+  height:600px;
+  margin-top: 60px;
+  width:200px;
+  background-color: white;
+  border:5px solid #f1ad1a;
+}
+#advert2{
+  float:right;
+  height:600px;
+  margin-top: 60px;
+  width:200px;
+  background-color: white;
+  border:5px solid #f1ad1a;
+}
+#advert1,#advert2 p{
+  font-size: 30px;
+  font-variant: small-caps;
+  word-wrap: break-word;
+  padding-left: 6px;
+  padding-right: 6px;
+
+}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    width: 1000px;
+    background: #1abc9c;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    background-color:#ddd;
+    height:50px;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.weekdays li {
+  list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    /*color: #666;*/
+    color: black;
+    text-align: center;
+}
+
+/* Days (1-31) */
+#days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height:200px;
+}
+
+
+#days li{
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:25px;
+    /*color:#777;*/
+    color: black;
+    padding-right: 6.5px;
+}
+#days li:hover{
+  background-color: #f1ad1a;
+  cursor: pointer;
+}
+button {
+     background:none!important;
+     color:inherit;
+     border:none;
+     padding:0!important;
+     font: inherit;
+     cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    height:600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    border:10px solid #f1ad1a;
+}
+#modaltitle{
+  font-size: 55px;
+  text-decoration: underline;
+  text-align: center;
+  color:rgba(0,128,128,1.0);
+}
+#modaldescribe{
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+#modalimg{
+  width:40%;
+  height:200px;
+  margin-left: 350px;
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+@media only screen and (min-width : 414px) and (max-width : 736px) {
+  #advert1,#advert2{
+    display: none;
+  }
+  #links{
+    width:auto;
+  }
+  body{
+    width:auto;
+  }
+  #links a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    /*padding: 0px 66px;*/
+    /*padding-left: 90px;
+    padding-right: 40px;*/
+    width:22%;
+    text-align: center;
+    word-wrap: normal;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10%;
+  }
+  h1{
+    width:80%;
+  }
+}
+@media only screen and (min-width : 768px) and (max-width : 1023px){
+  #advert1,#advert2{
+    display: none;
+  }
+  .month,.weekdays,#days{
+    width:auto;
+  }
+  #days{
+    height:500px;
+    font-size: 75px;
+  }
+  h1 img{
+    width:950px;
+  }
+  #links{
+    width:auto;
+  }
+  body{
+    width:auto;
+  }
+  #links a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    /*padding: 0px 66px;*/
+    /*padding-left: 90px;
+    padding-right: 40px;*/
+    width:22%;
+    text-align: center;
+    word-wrap: normal;
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-right: 10%;
+  }
+  #modalimg{
+    width:40%;
+    height:200px;
+    margin-left: 230px;
+  }
+}
